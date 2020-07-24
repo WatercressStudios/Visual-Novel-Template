@@ -5,14 +5,12 @@
 **/tmp/*
 log.txt
 **/game/saves/*
-**/errors.txt
-**/traceback.txt
+errors.txt
+traceback.txt
 *-dists/*
-**/*.mp4
-*.mpg
 *.rpy[bc]
 *.rpymc
 steamuploader.config
 raws/
 saves/
-*.txt
+.txt
