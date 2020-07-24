@@ -3,7 +3,7 @@
 
 *.bak
 **/tmp/*
-**/log.txt
+log.txt
 **/game/saves/*
 **/errors.txt
 **/traceback.txt
@@ -14,4 +14,5 @@
 *.rpymc
 steamuploader.config
 raws/
+saves/
 *.txt
