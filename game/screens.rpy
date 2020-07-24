@@ -312,7 +312,10 @@ screen navigation():
         textbutton _("Load") action ShowMenu("load")
 
         textbutton _("Preferences") action ShowMenu("preferences")
-
+        #unlike in standard Renpy we added a jukebox
+        textbutton _("Jukebox") action ShowMenu("jukebox")
+        #also unlike in stardard renpy we have gallery for CGs or whatever your development team would like to have
+        textbutton _("Gallery") action ShowMenu("gallery")
         if _in_replay:
 
             textbutton _("End Replay") action EndReplay(confirm=True)
