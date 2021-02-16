@@ -141,3 +141,6 @@ game/devlog.txt
 *.rpymc
 steamuploader.config
 raws/
+.txt
+log.txt
+saves/
