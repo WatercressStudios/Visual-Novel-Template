@@ -27,6 +27,7 @@ define gui.accent_color = '#0099cc'
 
 ## The color used for a text button when it is neither selected nor hovered.
 define gui.idle_color = '#888888'
+define gui.idle_tint_matrix = im.matrix.tint(Color(gui.idle_color).rgb[0], Color(gui.idle_color).rgb[1], Color(gui.idle_color).rgb[2])
 
 ## The small color is used for small text, which needs to be brighter/darker to
 ## achieve the same effect.
@@ -34,6 +35,7 @@ define gui.idle_small_color = '#aaaaaa'
 
 ## The color that is used for buttons and bars that are hovered.
 define gui.hover_color = '#66c1e0'
+define gui.hover_tint_matrix = im.matrix.tint(Color(gui.hover_color).rgb[0], Color(gui.hover_color).rgb[1], Color(gui.hover_color).rgb[2])
 
 ## The color used for a text button when it is selected but not focused. A
 ## button is selected if it is the current screen or preference value.
