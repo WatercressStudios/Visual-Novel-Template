@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Lint Bitch
+name: Lint Project
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -20,8 +20,9 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v1
-    - uses: ProjectAliceDev/renpy-lint-action@v1.1.0
+    - uses: ProjectAliceDev/renpy-lint-action@v1.1.2
       with:
+        sdk-version: '8.5.2.26010301'
         project-dir: '.'
       env:
         SDL_AUDIODRIVER: dummy
